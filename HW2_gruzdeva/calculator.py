@@ -1,3 +1,5 @@
+def subtraction(x, y):
+    return x - y
 def main():
     # Ввод строки с математическим выражением, числа разделены пробелами
     user_input = input("Введите выражение:")
@@ -33,6 +35,9 @@ def main():
 def divide(num1, num2):
     result = num1 / num2
     return result
+
+def multiply(num1, num2):
+    return num1 * num2
 
 
 if __name__ == "__main__":
