@@ -28,7 +28,8 @@ def main():
 
 #Функции членов команды №7 (add, subtraction, multiply, divide)
 
-
+def multiply(num1, num2):
+    return num1 * num2
 
 if __name__ == "__main__":
     main()
