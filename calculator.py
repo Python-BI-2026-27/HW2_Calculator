@@ -1,3 +1,7 @@
+def multiply(a, b):
+    return a * b
+
+
 def main():
     input_string = input().split()
 
