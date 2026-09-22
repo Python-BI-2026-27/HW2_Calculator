@@ -1,6 +1,11 @@
 def multiply(a, b):
     return a * b
 
+def divide(a, b):
+    if b == 0:
+        print("Вы пытаетесь поделить на 0!")
+        return None
+    return a / b
 
 def main():
     input_string = input().split()
