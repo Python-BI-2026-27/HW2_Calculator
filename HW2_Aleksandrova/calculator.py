@@ -1,3 +1,6 @@
+def addition(x, y):
+    return x + y
+  
 def subtraction(a, b):
     return a - b
   
