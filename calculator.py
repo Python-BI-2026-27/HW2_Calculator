@@ -5,3 +5,7 @@ p = i.split()
 a = float(p[0])
 b = float(p[2])
 o = p[1]
+if o not in ["+", "-", "/", "*"]:
+    print("такая операция не поддерживается")
+    
+else:
