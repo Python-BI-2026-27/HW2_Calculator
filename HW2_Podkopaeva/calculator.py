@@ -25,3 +25,6 @@ def main():
     
     print(result)
     return
+
+def multiplication(a, b):
+    return a * b
