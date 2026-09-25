@@ -1,16 +1,4 @@
 
-   
-
-
- 
-
-
-    
-
-
-    
-def multiply(a, b):
-    return a * b
     
 def main():
     a, op, b = input('Введите два числа и оператор через пробел: ').split()
@@ -31,3 +19,9 @@ main()
 # Kutelev Ivan
 def divide(a,b):
     return a / b
+    
+def add(a,b): 
+    return a+b
+    
+def multiply(a, b):
+    return a * b
