@@ -19,3 +19,6 @@ def main():
             print(сложение(a, b))
         elif o == "*":
             print(умножение(a, b))
+
+
+main()
