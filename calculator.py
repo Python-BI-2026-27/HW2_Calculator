@@ -15,6 +15,8 @@ def main():
         res = subtract(a, b)
     elif o == "+":
         res = add(a, b)
+    elif o == "*":
+        res = multiply(a, b)
     else:
         print("такая операция не поддерживается")
         return
@@ -30,6 +32,11 @@ def add(a: float, b: float):
 # функция вычитания
 def subtract(a: float, b: float):
     return a - b
+
+
+# функция умножения
+def multiply(a: float, b: float):
+    return a * b
 
 
 main()
