@@ -14,9 +14,7 @@ def main():
     elif op == "*":
         print(multiply(a,b))
 
-main()
 
-# Kutelev Ivan
 def divide(a,b):
     return a / b
     
@@ -28,3 +26,5 @@ def multiply(a, b):
     
 def subtract(a,b):
     return a-b
+
+main()
