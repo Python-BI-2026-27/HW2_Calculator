@@ -1,5 +1,7 @@
 def subtraction(x, y):
     return x - y
+
+
 def main():
     # Ввод строки с математическим выражением, числа разделены пробелами
     user_input = input("Введите выражение:")
@@ -31,6 +33,8 @@ def main():
 
 # Функции членов команды №7 (add, subtraction, multiply, divide)
 
+def add(num1, num2):
+    return num1 + num2
 
 def divide(num1, num2):
     result = num1 / num2
