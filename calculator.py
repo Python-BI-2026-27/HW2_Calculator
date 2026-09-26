@@ -61,8 +61,9 @@ def multiply(a: float, b: float):
 # функция деления
 def divide(a: float, b: float):
     if b == 0:
-      return "Деление на 0 невозможно"
+        return "Деление на 0 невозможно"
     else:
-      return a / b
+        return a / b
+
 
 main()
