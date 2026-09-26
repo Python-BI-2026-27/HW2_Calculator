@@ -34,6 +34,8 @@ def main():
         res = add(a, b)
     elif o == "*":
         res = multiply(a, b)
+    elif o == "/":
+        res = divide(a, b)
     else:
         print("такая операция не поддерживается")
         return
@@ -55,5 +57,12 @@ def subtract(a: float, b: float):
 def multiply(a: float, b: float):
     return a * b
 
+
+# функция деления
+def divide(a: float, b: float):
+    if b == 0:
+      return "Деление на 0 невозможно"
+    else:
+      return a / b
 
 main()
