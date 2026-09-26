@@ -1,0 +1,11 @@
+# Файл истории на MacOS
+.DS_store
+
+# При использовании pyenv - версия python 
+.python-version
+
+# Резервные копии Jupiter
+.ipynb_checkpoints/
+
+# Кэши
+.mypy_cache/
